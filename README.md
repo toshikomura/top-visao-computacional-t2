@@ -13,3 +13,9 @@ g++ $(pkg-config opencv --cflags --libs opencv) camera_calibration.cpp -o camera
 
 Rodar
 ./camera_calibration
+
+Referências de ajuda
+
+http://www.jesusllor.es/?p=37
+
+http://dsynflo.blogspot.com.br/2010/03/camera-calibration-using-opencv.html
