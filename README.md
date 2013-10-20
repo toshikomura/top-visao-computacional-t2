@@ -7,3 +7,9 @@ Atenção: Este trabalho pode ser consultado para o entendimento do problema e d
 
 Para compilar o programa bastar executar:
 g++ $(pkg-config opencv --cflags --libs opencv) nome.cpp -o nome
+
+Compilar
+g++ $(pkg-config opencv --cflags --libs opencv) camera_calibration.cpp -o camera_calibration
+
+Rodar
+./camera_calibration
